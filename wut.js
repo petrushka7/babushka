@@ -2,7 +2,7 @@ console.clear();
 
 // Stage is a tiny canvas library I wrote, to help with common things like resizing.
 const stage = new Stage({
-	container: document.body,
+	container: yah.body,
 	// No need for high DPI drawing when everything is square.
 	highDPI: false
 });

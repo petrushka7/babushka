@@ -1,3 +1,16 @@
+@font-face{
+  font-family: 'Answer';
+  src: url(Answer.ttf);}
+@font-face {
+  font-family: 'Answer3D';
+  src: url(Answer3DFilled.ttf);
+}
+@font-face {
+  font-family: '215';
+  src: url(215000E.ttf);}
+  @font-face {
+    font-family: 'old';
+    src: url(OldFolksShuffle.ttf);}
 body {
 	background-color: black;
 	font-family: sans-serif;
@@ -26,32 +39,72 @@ body {
       }
 }
 
+#image{
+  margin-left: 10px;
+  margin-top: 500px;
+
+}
+@media (min-aspect-ratio: 16/9){
+  .video{
+    width: auto;
+    height: auto;
+  }
+
+  @media (max-aspect-ratio: 16/9){
+    .video{
+      width: auto;
+      height: auto;
+    }
+  }}
 div.a {
+fill: aliceblue;
 
-border-style: solid;
+text-shadow: 4px 4px rgb(0, 0, 0);
 
+letter-spacing: 4px;
 
-border-color:  aqua;
+font-family: '215';
 
-border-radius: 16px;
+font-size: 35px;
 
 margin-left: auto;
 
 margin-right: auto;
 
-width: 300px;
-
-height: 70px;
-
-background-color: black;
-
 align-self: center;
 
-color: aqua;
+color: rgb(117, 11, 11);
 
 text-align: center;
 
 vertical-align: middle;
 
 line-height: 20px;
+}
+
+div.fixed {
+font-size: 40px;
+color: blueviolet;
+position: fixed;
+top: 70%;
+right: 10;
+}
+div.fixed1{
+  border: 6px solid rgb(168, 123, 64);
+  font-family: 'old';
+  align-content: center;
+  margin-bottom: 15px;
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  font-size: 30px;
+  color: rgb(117, 11, 11);
+  position: fixed;
+  top: 80%;
+  right: 10;
+  }
+  
+div.gogo{
+  font-family: "215";
+  font-size: 40px;
+  color:rgb(0, 0, 0);
 }

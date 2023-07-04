@@ -7,7 +7,6 @@ const stage = new Stage({
 	highDPI: false
 });
 
-
 // Math helpers
 // These are variations of the built in trig functions. Instead of accepting radians
 // and outputting a value between -1 and 1, these accept input of a normalized value
